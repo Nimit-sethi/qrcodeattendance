@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">85680098485-mo3g4sqekvp3otpvhhd26kcmi60vpbf5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">85680098485</string>
+    <string name="google_api_key" translatable="false">AIzaSyC9DFR-_Ws4eK9gOifF7Kl2zVRrUquGzXo</string>
+    <string name="google_app_id" translatable="false">1:85680098485:android:9bf20bec1c4777a62242fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC9DFR-_Ws4eK9gOifF7Kl2zVRrUquGzXo</string>
+    <string name="google_storage_bucket" translatable="false">qrscannerattendanceapp.appspot.com</string>
+    <string name="project_id" translatable="false">qrscannerattendanceapp</string>
+</resources>

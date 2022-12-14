@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85680098485",
+    "project_id": "qrscannerattendanceapp",
+    "storage_bucket": "qrscannerattendanceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85680098485:android:9bf20bec1c4777a62242fc",
+        "android_client_info": {
+          "package_name": "com.bytx.attendanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85680098485-mo3g4sqekvp3otpvhhd26kcmi60vpbf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9DFR-_Ws4eK9gOifF7Kl2zVRrUquGzXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85680098485-mo3g4sqekvp3otpvhhd26kcmi60vpbf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
