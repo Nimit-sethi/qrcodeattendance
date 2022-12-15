@@ -2742,6 +2742,7 @@ androidx.core.provider.FontsContractCompat$FontFamilyResult:
     public static final int STATUS_WRONG_CERTIFICATES
     public static final int STATUS_UNEXPECTED_DATA_PROVIDED
 kotlin.Deprecated
+io.github.ponnamkarthik.toast.fluttertoast.BuildConfig
 androidx.core.R$style
 com.google.android.gms.location.ActivityTransition$Builder
 com.google.common.util.concurrent.AbstractScheduledService$1
@@ -3963,6 +3964,7 @@ kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$consumeEach$1
 android.support.v4.media.session.MediaControllerCompat$MediaControllerImplApi23
 androidx.core.text.TextDirectionHeuristicCompat:
     public abstract boolean isRtl(char[],int,int)
+io.grpc.stub.MetadataUtils$HeaderAttachingClientInterceptor
 androidx.core.app.SharedElementCallback:
     public void <init>()
     private static android.graphics.Bitmap createDrawableBitmap(android.graphics.drawable.Drawable)
@@ -3975,7 +3977,6 @@ androidx.core.app.SharedElementCallback:
     private static final java.lang.String BUNDLE_SNAPSHOT_BITMAP
     private static final java.lang.String BUNDLE_SNAPSHOT_IMAGE_SCALETYPE
     private static final java.lang.String BUNDLE_SNAPSHOT_IMAGE_MATRIX
-io.grpc.stub.MetadataUtils$HeaderAttachingClientInterceptor
 androidx.transition.Styleable$ArcMotion
 io.flutter.plugins.imagepicker.R$xml
 io.grpc.stub.ClientCalls$GrpcFuture
@@ -3996,6 +3997,7 @@ com.google.protobuf.Internal$BooleanList:
     public abstract com.google.protobuf.Internal$BooleanList mutableCopyWithCapacity(int)
 kotlin.UByte$Companion
 org.checkerframework.checker.units.qual.radians
+io.github.ponnamkarthik.toast.fluttertoast.R$attr
 com.google.common.reflect.TypeToken$ClassSet
 com.google.firestore.v1.TargetOrBuilder
 com.google.common.collect.MapMaker
@@ -7893,6 +7895,9 @@ androidx.exifinterface.media.ExifInterface$ExifAttribute:
     public static androidx.exifinterface.media.ExifInterface$ExifAttribute createDouble(double,java.nio.ByteOrder)
     public static final long BYTES_OFFSET_UNKNOWN
 com.google.common.collect.LinkedListMultimap$Node
+io.github.ponnamkarthik.toast.fluttertoast.MethodCallHandlerImpl:
+    public final android.content.Context getContext()
+    public final void setContext(android.content.Context)
 com.google.android.gms.internal.common.zzs
 androidx.fragment.app.FragmentActivity:
     public void <init>(int)
@@ -7919,6 +7924,7 @@ com.google.common.collect.ArrayTable
 androidx.constraintlayout.motion.widget.KeyCycleOscillator$WavePoint
 com.google.common.math.BigIntegerMath
 com.google.api.UsageRuleOrBuilder
+io.github.ponnamkarthik.toast.fluttertoast.R$dimen
 androidx.core.app.NotificationManagerCompat$SideChannelManager:
     private static final int MSG_QUEUE_TASK
     private static final int MSG_SERVICE_CONNECTED
@@ -9179,6 +9185,7 @@ kotlinx.coroutines.CoroutineContextKt:
 com.google.android.gms.internal.base.zac:
     public static void zab(android.os.Parcel,boolean)
 androidx.core.widget.TextViewKt
+io.github.ponnamkarthik.toast.fluttertoast.R$color
 com.google.gson.FieldNamingPolicy
 io.grpc.internal.MigratingThreadDeframer$1DeframeOp
 kotlinx.coroutines.selects.SelectBuilderImpl
@@ -9770,6 +9777,7 @@ com.google.firestore.v1.ListenRequest$LabelsDefaultEntryHolder:
 com.google.common.collect.Maps$11
 android.support.v4.media.session.MediaSessionCompat$1
 com.google.common.math.Quantiles
+io.github.ponnamkarthik.toast.fluttertoast.R
 com.google.gson.internal.bind.TreeTypeAdapter$1
 com.google.android.material.transition.platform.TransitionUtils$2
 com.google.protobuf.AbstractMessageLite$InternalOneOfEnum
@@ -9946,6 +9954,7 @@ androidx.arch.core.R
 androidx.transition.Slide$4
 com.google.common.collect.ImmutableBiMap
 com.google.common.collect.HashMultimap
+io.github.ponnamkarthik.toast.fluttertoast.R$style
 kotlin.reflect.KMutableProperty1$Setter
 com.google.firebase.firestore.R$layout
 com.google.api.DocumentationRule
@@ -12063,6 +12072,7 @@ com.google.gson.internal.bind.TypeAdapters$15
 com.google.common.collect.Maps$SortedMapDifferenceImpl
 kotlinx.coroutines.flow.CancellableFlowImpl
 org.checkerframework.framework.qual.NoDefaultQualifierForUse
+io.github.ponnamkarthik.toast.fluttertoast.R$styleable
 com.google.android.gms.internal.location.zzac
 com.google.api.SystemParameterProto
 com.google.common.net.HostSpecifier
@@ -14318,6 +14328,7 @@ com.google.firebase.storage.R$attr
 kotlinx.coroutines.ChildJob$DefaultImpls
 com.google.android.material.bottomsheet.BottomSheetDialogFragment$1
 com.google.common.hash.Hashing$Sha256Holder
+io.github.ponnamkarthik.toast.fluttertoast.R$integer
 androidx.fragment.R$integer
 com.google.firebase.storage.R$style
 androidx.appcompat.view.menu.MenuPopup:
@@ -15977,6 +15988,7 @@ com.google.api.OAuthRequirementsOrBuilder
 androidx.constraintlayout.motion.widget.SplineSet$PivotXset
 com.google.android.gms.internal.vision.zzbf
 com.google.common.base.Suppliers$ExpiringMemoizingSupplier
+io.github.ponnamkarthik.toast.fluttertoast.R$string
 com.google.android.material.bottomnavigation.BottomNavigationMenuView$1
 androidx.recyclerview.widget.ThreadUtil$BackgroundCallback
 androidx.constraintlayout.widget.ConstraintSet$Transform:
@@ -21489,8 +21501,8 @@ io.grpc.okhttp.internal.Util:
 com.google.common.reflect.TypeToken$TypeCollector$1
 androidx.media.MediaBrowserServiceCompat$BrowserRoot
 com.google.common.hash.LittleEndianByteArray$UnsafeByteArray
-androidx.constraintlayout.solver.state.helpers.ChainReference
 androidx.core.graphics.drawable.IconCompat$IconType
+androidx.constraintlayout.solver.state.helpers.ChainReference
 kotlinx.coroutines.sync.SemaphoreImpl$onCancellationRelease$1
 com.google.protobuf.DescriptorProtos$FileOptions$OptimizeMode
 androidx.recyclerview.widget.SortedListAdapterCallback
@@ -22003,6 +22015,15 @@ io.grpc.internal.CallCredentialsApplyingTransportFactory$CallCredentialsApplying
     public java.lang.String getAuthority()
     public io.grpc.Attributes getTransportAttrs()
 com.google.common.graph.AbstractValueGraph$1
+io.github.ponnamkarthik.toast.fluttertoast.R$layout:
+    private void <init>()
+    public static final int custom_dialog
+    public static final int notification_action
+    public static final int notification_action_tombstone
+    public static final int notification_template_custom_big
+    public static final int notification_template_icon_group
+    public static final int notification_template_part_chronometer
+    public static final int notification_template_part_time
 androidx.constraintlayout.motion.widget.KeyCycleOscillator$ProgressSet
 com.google.common.collect.ComputationException
 kotlin.coroutines.CoroutineContext$Element:
@@ -22633,6 +22654,83 @@ io.grpc.HasByteBuffer
 com.google.firebase.firestore.local.MemoryRemoteDocumentCache$DocumentIterable
 com.lyokone.location.R$dimen
 com.google.android.gms.common.server.response.FastJsonResponse
+io.github.ponnamkarthik.toast.fluttertoast.R$id:
+    private void <init>()
+    public static final int accessibility_action_clickable_span
+    public static final int accessibility_custom_action_0
+    public static final int accessibility_custom_action_1
+    public static final int accessibility_custom_action_10
+    public static final int accessibility_custom_action_11
+    public static final int accessibility_custom_action_12
+    public static final int accessibility_custom_action_13
+    public static final int accessibility_custom_action_14
+    public static final int accessibility_custom_action_15
+    public static final int accessibility_custom_action_16
+    public static final int accessibility_custom_action_17
+    public static final int accessibility_custom_action_18
+    public static final int accessibility_custom_action_19
+    public static final int accessibility_custom_action_2
+    public static final int accessibility_custom_action_20
+    public static final int accessibility_custom_action_21
+    public static final int accessibility_custom_action_22
+    public static final int accessibility_custom_action_23
+    public static final int accessibility_custom_action_24
+    public static final int accessibility_custom_action_25
+    public static final int accessibility_custom_action_26
+    public static final int accessibility_custom_action_27
+    public static final int accessibility_custom_action_28
+    public static final int accessibility_custom_action_29
+    public static final int accessibility_custom_action_3
+    public static final int accessibility_custom_action_30
+    public static final int accessibility_custom_action_31
+    public static final int accessibility_custom_action_4
+    public static final int accessibility_custom_action_5
+    public static final int accessibility_custom_action_6
+    public static final int accessibility_custom_action_7
+    public static final int accessibility_custom_action_8
+    public static final int accessibility_custom_action_9
+    public static final int action_container
+    public static final int action_divider
+    public static final int action_image
+    public static final int action_text
+    public static final int actions
+    public static final int androidx_window_activity_scope
+    public static final int async
+    public static final int blocking
+    public static final int chronometer
+    public static final int dialog_button
+    public static final int forever
+    public static final int icon
+    public static final int icon_group
+    public static final int info
+    public static final int italic
+    public static final int line1
+    public static final int line3
+    public static final int locale
+    public static final int ltr
+    public static final int normal
+    public static final int notification_background
+    public static final int notification_main_column
+    public static final int notification_main_column_container
+    public static final int right_icon
+    public static final int right_side
+    public static final int rtl
+    public static final int tag_accessibility_actions
+    public static final int tag_accessibility_clickable_spans
+    public static final int tag_accessibility_heading
+    public static final int tag_accessibility_pane_title
+    public static final int tag_on_apply_window_listener
+    public static final int tag_on_receive_content_listener
+    public static final int tag_on_receive_content_mime_types
+    public static final int tag_screen_reader_focusable
+    public static final int tag_state_description
+    public static final int tag_transition_group
+    public static final int tag_unhandled_key_event_manager
+    public static final int tag_unhandled_key_listeners
+    public static final int tag_window_insets_animation_callback
+    public static final int text2
+    public static final int time
+    public static final int title
 androidx.documentfile.provider.DocumentFile
 androidx.savedstate.Recreator$SavedStateProvider
 kotlinx.coroutines.NonCancellable
@@ -26123,6 +26221,21 @@ io.grpc.internal.AbstractClientStream$GetFramer:
     public void dispose()
     public io.grpc.internal.Framer setMessageCompression(boolean)
 com.google.firestore.v1.ListCollectionIdsResponse$Builder
+io.github.ponnamkarthik.toast.fluttertoast.R$drawable:
+    private void <init>()
+    public static final int notification_action_background
+    public static final int notification_bg
+    public static final int notification_bg_low
+    public static final int notification_bg_low_normal
+    public static final int notification_bg_low_pressed
+    public static final int notification_bg_normal
+    public static final int notification_bg_normal_pressed
+    public static final int notification_icon_background
+    public static final int notification_template_icon_bg
+    public static final int notification_template_icon_low_bg
+    public static final int notification_tile_bg
+    public static final int notify_panel_notification_icon_bg
+    public static final int toast_bg
 kotlin.text.jdk8.RegexExtensionsJDK8Kt
 com.google.firestore.v1.BatchGetDocumentsResponse$ResultCase:
     public static com.google.firestore.v1.BatchGetDocumentsResponse$ResultCase valueOf(int)
@@ -37575,10 +37688,10 @@ com.google.android.material.transformation.ExpandableBehavior:
     private static final int STATE_UNINITIALIZED
     private static final int STATE_EXPANDED
     private static final int STATE_COLLAPSED
-androidx.core.view.-$$Lambda$ViewCompat$wxf3s7r4ODqhaNnVVlzx9IRcwjg:
-    public final androidx.core.view.ContentInfoCompat onReceiveContent(androidx.core.view.ContentInfoCompat)
 com.google.firebase.firestore.auth.-$$Lambda$FirebaseAuthCredentialsProvider$SiEkKBu9hz30n6jbv61jv-eXGhA:
     public final void onIdTokenChanged(com.google.firebase.internal.InternalTokenResult)
+androidx.core.view.-$$Lambda$ViewCompat$wxf3s7r4ODqhaNnVVlzx9IRcwjg:
+    public final androidx.core.view.ContentInfoCompat onReceiveContent(androidx.core.view.ContentInfoCompat)
 com.google.firebase.firestore.auth.-$$Lambda$FirebaseAppCheckTokenProvider$hu48mr03bfT6X2LDSOXJket2KbA:
     public final void onAppCheckTokenChanged(com.google.firebase.appcheck.AppCheckTokenResult)
 kotlinx.coroutines.scheduling.ExperimentalCoroutineDispatcher:
@@ -39199,9 +39312,9 @@ com.google.android.material.resources.TextAppearance:
     public final boolean textAllCaps
 androidx.appcompat.view.StandaloneActionMode:
     private boolean mFocusable
-io.flutter.view.TextureRegistry$SurfaceTextureEntry$-CC
-androidx.lifecycle.DefaultLifecycleObserver$-CC
 io.flutter.plugin.common.BinaryMessenger$-CC:
     public static io.flutter.plugin.common.BinaryMessenger$TaskQueue $default$makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
     public static void $default$setMessageHandler(io.flutter.plugin.common.BinaryMessenger,java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue)
 io.flutter.plugin.platform.PlatformView$-CC
+io.flutter.view.TextureRegistry$SurfaceTextureEntry$-CC
+androidx.lifecycle.DefaultLifecycleObserver$-CC

@@ -62,18 +62,27 @@ class _AuthCheckState extends State<AuthCheck> {
     sharedPreferences = await SharedPreferences.getInstance();
 
     try {
-      if (sharedPreferences.getString('admin') != null) {
-        setState(() {
-          Admin.id = sharedPreferences.getString('admin')!;
-          // userAvailable = true;
-          adminAvailable = true;
-        });
-      }
+      // if (sharedPreferences.getString('admin') != null) {
+      //   setState(() {
+      //     Admin.id = sharedPreferences.getString('admin')!;
+      //     // userAvailable = true;
+      //     adminAvailable = true;
+      //   });
+      // }
       if (sharedPreferences.getString('employeeId') != null) {
-        setState(() {
-          User.employeeId = sharedPreferences.getString('employeeId')!;
-          userAvailable = true;
-        });
+        if (sharedPreferences.getString('employeeId') == "admin") {
+          setState(() {
+            Admin.id = sharedPreferences.getString('employeeId')!;
+            userAvailable = true;
+            adminAvailable = true;
+          });
+        } else {
+          setState(() {
+            User.employeeId = sharedPreferences.getString('employeeId')!;
+            userAvailable = true;
+            adminAvailable = false;
+          });
+        }
       }
       // else if (sharedPreferences.getString('employeeId') == null &&
       //     sharedPreferences.getString('admin') == null) {
@@ -94,6 +103,6 @@ class _AuthCheckState extends State<AuthCheck> {
   Widget build(BuildContext context) {
     return userAvailable
         ? (adminAvailable ? const AdminPage() : const HomeScreen())
-        : const LoginScreen();
+        : LoginScreen();
   }
 }

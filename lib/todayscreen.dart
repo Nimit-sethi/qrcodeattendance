@@ -30,7 +30,7 @@ class _TodayScreenState extends State<TodayScreen> {
   String scanResult = " ";
   String officeCode = " ";
 
-  Color primary = const Color(0xffeef444c);
+  Color primary = const Color(0xffFF5F15);
 
   @override
   void initState() {
@@ -438,35 +438,37 @@ class _TodayScreenState extends State<TodayScreen> {
                   "Location: " + location,
                 )
               : const SizedBox(),
-          // GestureDetector(
-          //   onTap: () async {
-          //     sharedPreferences = await SharedPreferences.getInstance();
-          //     await sharedPreferences.clear();
-          //
-          //     Navigator.pushReplacement(context,
-          //         MaterialPageRoute(builder: (context) => const LoginScreen()));
-          //   },
-          //   child: Container(
-          //     height: 60,
-          //     width: screenWidth,
-          //     margin: EdgeInsets.only(top: screenHeight / 40),
-          //     decoration: BoxDecoration(
-          //       color: primary,
-          //       borderRadius: const BorderRadius.all(Radius.circular(30)),
-          //     ),
-          //     child: Center(
-          //       child: Text(
-          //         "LOGOUT",
-          //         style: TextStyle(
-          //           fontFamily: "NexaBold",
-          //           fontSize: screenWidth / 26,
-          //           color: Colors.white,
-          //           letterSpacing: 2,
-          //         ),
-          //       ),
-          //     ),
-          //   ),
-          // ),
+          GestureDetector(
+            onTap: () async {
+              sharedPreferences = await SharedPreferences.getInstance();
+              await sharedPreferences.clear();
+
+              Navigator.pushAndRemoveUntil(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyApp()),
+                  (route) => false);
+            },
+            child: Container(
+              height: 60,
+              width: screenWidth,
+              margin: EdgeInsets.only(top: screenHeight / 40),
+              decoration: BoxDecoration(
+                color: primary,
+                borderRadius: const BorderRadius.all(Radius.circular(30)),
+              ),
+              child: Center(
+                child: Text(
+                  "LOGOUT",
+                  style: TextStyle(
+                    fontFamily: "NexaBold",
+                    fontSize: screenWidth / 26,
+                    color: Colors.white,
+                    letterSpacing: 2,
+                  ),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     ));

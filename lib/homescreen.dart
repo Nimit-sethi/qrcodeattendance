@@ -20,12 +20,12 @@ class _HomeScreenState extends State<HomeScreen> {
   double screenWidth = 0;
   late SharedPreferences sharedPreferences;
 
-  Color primary = const Color(0xffeef444c);
+  Color primary = const Color(0xffFF5F15);
 
-  int currentIndex = 1;
+  int currentIndex = 0;
 
   List<IconData> navigationIcons = [
-    FontAwesomeIcons.calendarAlt,
+    // FontAwesomeIcons.calendar,
     FontAwesomeIcons.check,
     FontAwesomeIcons.user,
   ];
@@ -104,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: IndexedStack(
         index: currentIndex,
         children: [
-          new CalendarScreen(),
+          // new CalendarScreen(),
           new TodayScreen(),
           new ProfileScreen(),
         ],

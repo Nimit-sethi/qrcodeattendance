@@ -74,6 +74,7 @@ MERGED from [:image_picker_android] F:\flutter development\attendanceapp\build\i
 MERGED from [:flutter_plugin_android_lifecycle] F:\flutter development\attendanceapp\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:geocoding] F:\flutter development\attendanceapp\build\geocoding\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_keyboard_visibility] F:\flutter development\attendanceapp\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] F:\flutter development\attendanceapp\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:location] F:\flutter development\attendanceapp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\a3b86b42fafb2019c6d99a912992ce19\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
@@ -177,6 +178,8 @@ MERGED from [:geocoding] F:\flutter development\attendanceapp\build\geocoding\in
 MERGED from [:geocoding] F:\flutter development\attendanceapp\build\geocoding\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_keyboard_visibility] F:\flutter development\attendanceapp\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_keyboard_visibility] F:\flutter development\attendanceapp\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] F:\flutter development\attendanceapp\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] F:\flutter development\attendanceapp\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:location] F:\flutter development\attendanceapp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:location] F:\flutter development\attendanceapp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\a3b86b42fafb2019c6d99a912992ce19\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
